@@ -1,0 +1,56 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Scripts",
+    "children" : [ {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "Test01",
+        "children" : [ {
+          "name" : "test_login[admin-123456-8888-True]",
+          "uid" : "5ec3d0d163eb9e0e",
+          "parentUid" : "7e3c48a5563f35a4762207484f1571ea",
+          "status" : "passed",
+          "time" : {
+            "start" : 1600323954504,
+            "stop" : 1600323976358,
+            "duration" : 21854
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'8888'", "True", "'admin'", "'123456'" ]
+        }, {
+          "name" : "test_login[admin-1234567-8888-False]",
+          "uid" : "597f3e95dcd25e76",
+          "parentUid" : "7e3c48a5563f35a4762207484f1571ea",
+          "status" : "passed",
+          "time" : {
+            "start" : 1600323976390,
+            "stop" : 1600323979905,
+            "duration" : 3515
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'8888'", "False", "'admin'", "'1234567'" ]
+        }, {
+          "name" : "test_login[admin1-123456-8888-False]",
+          "uid" : "1d442606e28d8ca5",
+          "parentUid" : "7e3c48a5563f35a4762207484f1571ea",
+          "status" : "passed",
+          "time" : {
+            "start" : 1600323979915,
+            "stop" : 1600323983320,
+            "duration" : 3405
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'8888'", "False", "'admin1'", "'123456'" ]
+        } ],
+        "uid" : "7e3c48a5563f35a4762207484f1571ea"
+      } ],
+      "uid" : "79d85960286d292eb05eb26a62885feb"
+    } ],
+    "uid" : "ac537b8f55a60b2e2381ee5657079cea"
+  } ]
+}

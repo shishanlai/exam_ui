@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-A91HO7U",
+    "children" : [ {
+      "name" : "11504-MainThread",
+      "children" : [ {
+        "name" : "test_login[admin1-123456-8888-False]",
+        "uid" : "1d442606e28d8ca5",
+        "parentUid" : "da1934a94f9f95aaab065c0e7b9b37ae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600323979915,
+          "stop" : 1600323983320,
+          "duration" : 3405
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'8888'", "False", "'admin1'", "'123456'" ]
+      }, {
+        "name" : "test_login[admin-1234567-8888-False]",
+        "uid" : "597f3e95dcd25e76",
+        "parentUid" : "da1934a94f9f95aaab065c0e7b9b37ae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600323976390,
+          "stop" : 1600323979905,
+          "duration" : 3515
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'8888'", "False", "'admin'", "'1234567'" ]
+      }, {
+        "name" : "test_login[admin-123456-8888-True]",
+        "uid" : "5ec3d0d163eb9e0e",
+        "parentUid" : "da1934a94f9f95aaab065c0e7b9b37ae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600323954504,
+          "stop" : 1600323976358,
+          "duration" : 21854
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'8888'", "True", "'admin'", "'123456'" ]
+      } ],
+      "uid" : "da1934a94f9f95aaab065c0e7b9b37ae"
+    } ],
+    "uid" : "2e5b1a26f26a89e6596baa740ca912e1"
+  } ]
+}

@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Sep 17 14:25:54 CST 2020","Thu Sep 17 14:26:16 CST 2020","21854","Scripts","test_login","Test01","","","test_login[admin-123456-8888-True]",""
+"passed","Thu Sep 17 14:26:19 CST 2020","Thu Sep 17 14:26:23 CST 2020","3405","Scripts","test_login","Test01","","","test_login[admin1-123456-8888-False]",""
+"passed","Thu Sep 17 14:26:16 CST 2020","Thu Sep 17 14:26:19 CST 2020","3515","Scripts","test_login","Test01","","","test_login[admin-1234567-8888-False]",""
